@@ -1,3 +1,43 @@
+@media (max-width: 768px) {
+  .signup,
+  .login {
+    flex-direction: column;
+    width: 90%;
+    min-height: auto;
+    gap: 0;
+    margin: 30px auto;
+  }
+
+  .sign-left,
+  .sign-right,
+  .log-left,
+  .log-right {
+    width: 100%;
+    padding: 35px 20px;
+    box-sizing: border-box;
+  }
+
+  .sign-left,
+  .log-right {
+    border-radius: 20px 20px 0 0;
+  }
+
+  .sign-right,
+  .log-left {
+    border-radius: 0 0 20px 20px;
+  }
+
+  .sign-right form,
+  .log-right form,
+  .log-left form {
+    width: 100%;
+  }
+
+  .btn,
+  .btn2 {
+    width: 100%;
+  }
+}
 .signup {
 display: flex;
 justify-content: center;
