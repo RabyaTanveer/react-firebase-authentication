@@ -1,0 +1,151 @@
+.signup {
+display: flex;
+justify-content: center;
+gap: 100px;
+width: 900px;
+  min-height: 500px;
+  margin: 80px auto;
+  background-color: rgb(247, 243, 243);
+  border-radius: 20px;
+
+}
+.sign-right{
+display:flex;
+flex-direction: column;
+align-items: center;
+width: 50%;
+padding: 50px;
+justify-content: center;
+ 
+}
+.sign-left{
+  display:flex;
+flex-direction: column;
+  background-color: brown;
+  border-radius: 20px;
+width: 50%;
+padding: 50px;
+  justify-content: center;
+  color: aliceblue;
+}
+.sign-right form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 80%;
+  color: brown;
+}
+button:hover{
+  cursor: pointer;
+}
+.btn{
+ background-color: brown;
+ color: aliceblue;
+ border: none;
+}
+.btn2{
+  color: brown;
+   width: 280px;
+}
+.login{
+ display: flex;
+justify-content: center;
+gap: 100px;
+width: 900px;
+  min-height: 500px;
+  margin: 80px auto;
+  background-color: rgb(247, 243, 243);
+  border-radius: 20px;
+}
+.log-left{
+display:flex;
+flex-direction: column;
+align-items: center;
+width: 50%;
+padding: 50px;
+justify-content: center;
+}
+.log-right{
+  display:flex;
+flex-direction: column;
+  background-color: brown;
+  border-radius: 20px;
+width: 50%;
+padding: 50px;
+  justify-content: center;
+  color: aliceblue;
+}
+.log-right form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 80%;
+}
+.log-btn{
+  background-color: brown;
+ color: aliceblue;
+ border: none;
+  width: 280px;
+}
+.log-btn2{
+  color: brown;
+}
+.Dash {
+  width: 420px;
+  margin: 70px auto;
+  padding: 40px;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.Dash h1 {
+  color: brown;
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+
+.Dash p {
+  color: #555;
+  font-size: 18px;
+  margin-bottom: 30px;
+  word-break: break-word;
+}
+
+.Dash button {
+  width: 180px;
+  padding: 12px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.Dash button {
+  background: brown;
+  color: white;
+}
+
+
+
+
+.Dash button:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+.profile-circle {
+  width: 90px;
+  height: 90px;
+  margin: 20px auto;
+  border-radius: 50%;
+  background: brown;
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
