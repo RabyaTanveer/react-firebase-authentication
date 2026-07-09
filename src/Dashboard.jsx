@@ -4,7 +4,7 @@
  function Dashboard(){
     const navigate= useNavigate();
     const user= auth.currentUser
-    const longoutHandler= async ()=>{
+    const logoutHandler= async ()=>{
         try{
            await signOut(auth)
           navigate("/")
