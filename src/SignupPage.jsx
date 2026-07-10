@@ -1,9 +1,11 @@
 import { useState } from "react"
 import { auth } from "./firebase"
-import { Link } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 import { createUserWithEmailAndPassword } from "firebase/auth"
+import { Navigate } from "react-router-dom"
 
 function SignupPage() {
+  const navigate= useNavigate();
     const [user, setUser] = useState({
         username: "",
         email: "",
@@ -22,6 +24,7 @@ function SignupPage() {
         user.email,
         user.password
         );console.log(userCredential)
+        navigate("/dashboard");
     }
         catch(error){console.log(error);}
      else {
